@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Tienda Fuxion</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <h1>Bienvenido a mi tienda Fuxion</h1>
+  
+  <div class="producto">
+    <h2>Producto 1</h2>
+    <p>$20</p>
+    <button onclick="agregarAlCarrito('Producto 1', 20)">Agregar al carrito</button>
+  </div>
+
+  <div class="producto">
+    <h2>Producto 2</h2>
+    <p>$25</p>
+    <button onclick="agregarAlCarrito('Producto 2', 25)">Agregar al carrito</button>
+  </div>
+
+  <h2>Carrito de compras</h2>
+  <ul id="carrito"></ul>
+  <p>Total: $<span id="total">0</span></p>
+  
+  <script src="script.js"></script>
+</body>
+</html>
